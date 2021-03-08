@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NoteLists from "./components/NoteLists";
-import RegistrationForm  from "./components/RegistrationForm";
+import RegistrationForm from "./components/RegistrationForm";
 import "./assets/App.css";
 import "./assets/index.css";
 class App extends Component {
@@ -19,11 +19,21 @@ class App extends Component {
     };
     this.setState(newState);
   }
+
+  deleteNote(index) {
+    let arrayNotes = this.state.notes;
+    arrayNotes.splice(index, 1);
+    this.setState({ notes: arrayNotes });
+  }
+
   render() {
     return (
       <section className="content">
-        <RegistrationForm  createNote={this.createNote.bind(this)} />
-        <NoteLists notes={this.state.notes} />
+        <RegistrationForm createNote={this.createNote.bind(this)} />
+        <NoteLists
+          deleteNote={this.deleteNote.bind(this)}
+          notes={this.state.notes}
+        />
       </section>
     );
   }
