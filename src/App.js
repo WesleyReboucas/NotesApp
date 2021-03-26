@@ -1,39 +1,36 @@
 import React, { Component } from "react";
-import NoteLists from "./components/NoteLists";
+import NotesList from "./components/NotesList";
 import RegistrationForm from "./components/RegistrationForm";
+import CategoryList from "./components/CategoriesList";
 import "./assets/App.css";
 import "./assets/index.css";
+import Categories from "./dados/Categories";
+import ArrayNotes from "./dados/Notes";
 class App extends Component {
   constructor() {
     super();
-    this.state = {
-      notes: [],
-    };
-  }
-
-  createNote(title, text) {
-    const novaNota = { title, text };
-    const newArrayNotes = [...this.state.notes, novaNota];
-    const newState = {
-      notes: newArrayNotes,
-    };
-    this.setState(newState);
-  }
-
-  deleteNote(index) {
-    let arrayNotes = this.state.notes;
-    arrayNotes.splice(index, 1);
-    this.setState({ notes: arrayNotes });
+    this.categories = new Categories();
+    this.notes = new ArrayNotes();
+    
   }
 
   render() {
     return (
       <section className="content">
-        <RegistrationForm createNote={this.createNote.bind(this)} />
-        <NoteLists
-          deleteNote={this.deleteNote.bind(this)}
-          notes={this.state.notes}
+        <RegistrationForm
+          categories={this.categories}
+          createNote={this.notes.addNote.bind(this.notes)}
         />
+        <main className="content-main">
+          <CategoryList
+            addCategory={this.categories.addCategory.bind(this.categories)}
+            categories={this.categories}
+          />
+          <NotesList
+            deleteNote={this.notes.deleteNote.bind(this.notes)}
+            notas={this.notes}
+          />
+        </main>
       </section>
     );
   }

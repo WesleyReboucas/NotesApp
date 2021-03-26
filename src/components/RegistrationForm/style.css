@@ -1,4 +1,4 @@
-.register-form {
+.form-registration {
   flex-grow: 2;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
   z-index: 1;
@@ -7,7 +7,7 @@
   flex-direction: column;
   padding: 12px 40px;
 }
-.register-form_input {
+.form-registration_input {
   margin-top: 8px;
   padding: 4px;
   border: none;
@@ -16,7 +16,7 @@
   font-weight: 100;
 }
 
-.register-form_submit {
+.form-registration_submit {
   align-self: flex-end;
   width: 30%;
   background-color: var(--secondary);
@@ -24,6 +24,6 @@
   font-weight: 400;
 }
 
-.register-form_submit:active {
+.form-registration_submit:active {
   background-color: var(--secondary-active);
 }

@@ -1,49 +1,73 @@
 import React, { Component } from "react";
 import "./style.css";
-
-class RegistrationForm  extends Component {
-
-  constructor(props){
+class RegistrationForm extends Component {
+  constructor(props) {
     super(props);
-    this.title ="";
-    this.text ="";
+    this.title = "";
+    this.text = "";
+    this.category = "Sem category";
+    this.state = {categories:[]}
+
+    this._newCategories = this._newCategories.bind(this);
   }
 
-  _handleChangeTitle(event){
+  componentDidMount(){
+    this.props.categories.subscribe( this._newCategories);
+    
+  }
+
+  componentWillUnmount(){
+    this.props.categories.unsubscribe( this._newCategories);
+  }
+  _newCategories(categories){
+    this.setState({...this.state, categories})
+  }
+  _handleCategoryChange(event){
+    event.stopPropagation();
+    this.category = event.target.value;
+  }
+  _handleTitleChange(event) {
     event.stopPropagation();
     this.title = event.target.value;
   }
 
-  _handleChangeText(event){
+  _handleTextChange(event) {
     event.stopPropagation();
     this.text = event.target.value;
   }
 
-  _createNote(event){
+  _createNote(event) {
     event.preventDefault();
     event.stopPropagation();
-    this.props.createNote(this.title, this.text);
-    
+    this.props.createNote(this.title, this.text, this.category);
   }
 
   render() {
     return (
-      <form className="register-form"
-        onSubmit={this._createNote.bind(this)}
-      >
+      <form className="form-registration" onSubmit={this._createNote.bind(this)}>
+        <select
+          onChange={this._handleCategoryChange.bind(this)}
+          className="form-registration_input"
+        >
+          <option>Sem category</option>
+
+          {this.state.categories.map((category, index) => {
+            return <option key={index} >{category}</option>;
+          })}
+        </select>
         <input
           type="text"
           placeholder="Título"
-          className="register-form_input"
-          onChange={this._handleChangeTitle.bind(this)}
+          className="form-registration_input"
+          onChange={this._handleTitleChange.bind(this)}
         />
         <textarea
           rows={15}
           placeholder="Escreva sua nota..."
-          className="register-form_input"
-          onChange={this._handleChangeText.bind(this)}
+          className="form-registration_input"
+          onChange={this._handleTextChange.bind(this)}
         />
-        <button className="register-form_input register-form_submit">
+        <button className="form-registration_input form-registration_submit">
           Criar Nota
         </button>
       </form>
@@ -51,4 +75,4 @@ class RegistrationForm  extends Component {
   }
 }
 
-export default RegistrationForm ;
+export default RegistrationForm;
