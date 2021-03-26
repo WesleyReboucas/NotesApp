@@ -13,13 +13,14 @@
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#bookmark_tabs-licencia-&-certificados">Licencia & Certificados</a>
+  <a href="#bookmark_tabs-certificados">Certificados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_with_curl-licencia">Licencia</a>
 </p>
 
 ## Projeto
 
 O Note App é um projeto idealizado pela 
-<a href="https://alura.com.br/"> **@Alura** </a> 
+<a href="https://alura.com.br/"> **Alura** </a> 
 com a intensão de criar uma página onde é possivel criar, categorizar e excluir notas.
 
 ## Layout
@@ -33,11 +34,7 @@ com a intensão de criar uma página onde é possivel criar, categorizar e exclu
 - [Javascript](https://www.javascript.com/)
 - [React](https://reactjs.org)
 
-
-## :bookmark_tabs: Licencia & Certificados
-<a href="https://choosealicense.com/licenses/mit/">
-	<img src="https://img.shields.io/static/v1?label=License&message=2021&color=A31F34&style=flat"/>
-</a>
+## :bookmark_tabs: Certificados 
 <a href="https://cursos.alura.com.br/certificate/7f20df07-998b-476f-8191-0cc73c921dc8">
 	<img src="https://img.shields.io/static/v1?label=Alura&message=2021&color=199ffc&style=flat"/>
 </a>
@@ -45,7 +42,10 @@ com a intensão de criar uma página onde é possivel criar, categorizar e exclu
 	<img src="https://img.shields.io/static/v1?label=Alura&message=2021&color=199ffc&style=flat"/>
 </a>
 
-
+## :page_with_curl: Licencia 
+<a href="https://choosealicense.com/licenses/mit/">
+	<img src="https://img.shields.io/static/v1?label=License&message=2021&color=A31F34&style=flat"/>
+</a>
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 
