@@ -13,7 +13,7 @@
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#bookmark_tabs-licencia">Licencia & Certificados</a>
+  <a href="#bookmark_tabs-licencia-&-certificados">Licencia & Certificados</a>
 </p>
 
 ## Projeto
@@ -25,8 +25,7 @@ com a intensão de criar uma página onde é possivel criar, categorizar e exclu
 ## Layout
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
-	<img src="./.github/landing.png" width="950px">
-  		
+	<img src="https://user-images.githubusercontent.com/28845397/112648473-54f35000-8e28-11eb-9464-aeecc0927257.png" width="950px">	
 </div>
 
 ## Tecnologias
