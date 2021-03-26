@@ -46,7 +46,7 @@ com a intensão de criar uma página onde é possivel criar, categorizar e exclu
 <a href="https://choosealicense.com/licenses/mit/">
 	<img src="https://img.shields.io/static/v1?label=License&message=2021&color=A31F34&style=flat"/>
 </a>
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://choosealicense.com/licenses/mit/) para mais detalhes.
 
 
 
