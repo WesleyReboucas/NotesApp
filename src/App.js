@@ -28,7 +28,7 @@ class App extends Component {
           />
           <NotesList
             deleteNote={this.notes.deleteNote.bind(this.notes)}
-            notas={this.notes}
+            notes={this.notes}
           />
         </main>
       </section>

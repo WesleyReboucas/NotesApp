@@ -5,24 +5,24 @@ class NotesList extends Component {
  
   constructor(){
     super();
-    this.state = {notas:[]}
+    this.state = {notes:[]}
     this._newNotes = this._newNotes.bind(this);
   }
   componentDidMount(){
-    this.props.notas.subscribe(this._newNotes);
+    this.props.notes.subscribe(this._newNotes);
   }
   componentWillUnmount(){
-    this.props.notas.unsubscribe(this._newNotes);
+    this.props.notes.unsubscribe(this._newNotes);
   }
-  _newNotes(notas){
-    this.setState({...this.state,notas})
+  _newNotes(notes){
+    this.setState({...this.state,notes})
   }
 
   render() {
 
     return (
       <ul className="list-notes">
-        {this.state.notas.map((nota, index) => {
+        {this.state.notes.map((nota, index) => {
           return (
             <li className="list-notes_item" key={index}>
               

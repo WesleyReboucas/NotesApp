@@ -40,7 +40,7 @@ class CategoryList extends Component {
         <input
           type="text"
           className="categories-list_input"
-          placeholder="Adicionar category..."
+          placeholder="Adicionar categoria..."
           onKeyUp={this._handleInputEvent.bind(this)}
         />
       </section>
