@@ -1,6 +1,4 @@
-<p align="center"> 
-	<img src='' width="950px"/>
-</p>
+<h1 align="center"> Note App </h1>
 
 <p align="center">
 	<a href="https://www.linkedin.com/in/wesley-andrade/">	
@@ -11,7 +9,6 @@
 	</a>
 </p>
 
-
 <p align="center">
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -21,9 +18,9 @@
 
 ## Projeto
 
-O Happy é um projeto idealizado pela 
-<a href="https://rocketseat.com.br/"> **@Rocketseat** </a> 
-com a intensão de criar uma plataforma que viabiliza a fácil localização de orfanatos pela sua cidade.
+O Note App é um projeto idealizado pela 
+<a href="https://alura.com.br/"> **@Alura** </a> 
+com a intensão de criar uma página onde é possivel criar, categorizar e excluir notas.
 
 ## Layout
 
