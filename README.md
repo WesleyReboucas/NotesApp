@@ -23,6 +23,16 @@ O Note App é um projeto idealizado pela
 <a href="https://alura.com.br/"> **Alura** </a> 
 com a intensão de criar uma página onde é possivel criar, categorizar e excluir notas.
 
+
+
+    Aprenda a usar Hooks de maneira segura
+    Entenda como trabalhar com Material UI
+    Saiba criar Function Components
+    Veja uma forma de fazer validação de dados em formulários
+    Conheça os conceitos de formulários controlados e não controlados
+
+
+
 ## Layout
 
 <div style="display: flex; flex-direction: 'row'; align-items: 'center';">
@@ -46,7 +56,7 @@ com a intensão de criar uma página onde é possivel criar, categorizar e exclu
 <a href="https://choosealicense.com/licenses/mit/">
 	<img src="https://img.shields.io/static/v1?label=License&message=2021&color=A31F34&style=flat"/>
 </a>
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://choosealicense.com/licenses/mit/) para mais detalhes.
+Esse projeto está sob a licença MIT.
 
 
 
