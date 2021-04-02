@@ -24,12 +24,13 @@ O Note App é um projeto idealizado pela
 com a intensão de criar uma página onde é possivel criar, categorizar e excluir notas.
 
 
-
-    Aprenda a usar Hooks de maneira segura
-    Entenda como trabalhar com Material UI
-    Saiba criar Function Components
-    Veja uma forma de fazer validação de dados em formulários
-    Conheça os conceitos de formulários controlados e não controlados
+    Ciclo de vida dos componentes React
+    Possíveis problemas de performance da aplicação
+    Adicionar o padrão de projetos Observable em seus sites
+    Diferentes forma de carregar um SVG dentro do site
+    Diferença entre Statefull e Stateless components
+    Class components 
+    Componentes
 
 
 
