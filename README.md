@@ -13,6 +13,7 @@
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bookmark_tabs-certificados">Certificados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#page_with_curl-licencia">Licencia</a>
 </p>
@@ -44,6 +45,26 @@ com a intensão de criar uma página onde é possivel criar, categorizar e exclu
 
 - [Javascript](https://www.javascript.com/)
 - [React](https://reactjs.org)
+
+## Instalação
+```bash
+# Clone do Repositorio
+$ git clone https://github.com/WesleyReboucas/NotesApp.git
+```
+
+### Web
+
+```bash
+# Na pasta NotesApp
+$ cd NotesApp/web
+
+# Instalação de depedencias
+$ yarn install
+
+# Iniciando aplicação
+$ yarn start
+```
+**Acesse:** http://localhost:3000/ 
 
 ## :bookmark_tabs: Certificados 
 <a href="https://cursos.alura.com.br/certificate/7f20df07-998b-476f-8191-0cc73c921dc8">
