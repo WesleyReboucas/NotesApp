@@ -56,7 +56,7 @@ $ git clone https://github.com/WesleyReboucas/NotesApp.git
 
 ```bash
 # Na pasta NotesApp
-$ cd NotesApp/web
+$ cd NotesApp
 
 # Instalação de depedencias
 $ yarn install
