@@ -1,4 +1,6 @@
-<h1 align="center"> Note App </h1>
+<div >
+	<img src="public/notes.png" width="1000px">
+</div>
 
 <p align="center">
 	<a href="https://www.linkedin.com/in/wesley-andrade/">	
